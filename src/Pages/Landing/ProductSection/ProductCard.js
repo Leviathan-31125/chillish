@@ -3,7 +3,7 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 
 const ProductCard = ({ title, description, productImg }) => {
   return (
-    <div className='border-2 bg-[#F9F6F3]'>
+    <div className='border-2 bg-[#F9F6F3] hover:scale-105 transform duration-200'>
       <div className='bg-black flex justify-center items-center'>
         <img src={productImg} alt={title}/>
       </div>
