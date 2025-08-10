@@ -7,7 +7,7 @@ const Myprofile = () => {
         {/* Content Container  */}
         <div className='flex justify-center gap-24 mb-7'>
           {/* Biografi Container  */}
-          <div className='w-5/12 space-y-3'>
+          <div className='w-4/12 space-y-3'>
             <h1 className='text-4xl font-semibold max-w-[13rem]'>Halo, saya <span className='font-bold text-green-600'>Ray Ilahude</span></h1>
             <p>
               Sejak kecil, saya tumbuh dan terbiasa dengan bahasa Inggris. Hal ini berkat didikan orang tua yang memfasilitasi saya dalam mendalami bahasa. Namun, sejak berpindah ke Gorontalo, akses terhadap bahasa Inggris yang saya temukan lebih sedikit, salah satunya toko buku idaman yang kerap saya datangi setiap pekan.
@@ -23,7 +23,7 @@ const Myprofile = () => {
             </p>
           </div>
           {/* Image Container  */}
-          <div className='flex flex-col justify-between'>
+          <div className='flex flex-col justify-around gap-10'>
             <div className='relative'>
               <div className='bg-[#1CB190]/60 max-w-[17rem] max-h-[12rem] w-[17rem] h-[12rem] rounded-3xl'></div>
               <img src='/img/ray.png' alt='Ray Ilahude' className='absolute top-8 left-14 max-w-[20rem] w-[20rem] drop-shadow-lg'/>
