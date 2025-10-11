@@ -9,7 +9,7 @@ import Header from './Header'
 const LandingPage = () => {
   return (
     <div>
-      <Header />
+      <Header/>
       <Jumbotron/>
       <Benefit />
       <Myprofile />
