@@ -4,7 +4,7 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 
 const Benefit = () => {
   return (
-    <div className='flex gap-7 px-36 py-5'>
+    <div id='benefit' className='flex gap-7 px-36 py-5'>
       <div className='flex flex-col w-full gap-7'>
         <div>
           <h1 className='text-4xl font-bold'>Gimana Aku Bisa</h1>
