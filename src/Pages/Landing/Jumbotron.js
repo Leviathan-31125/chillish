@@ -11,7 +11,8 @@ const Jumbotron = () => {
           <h2 className="text-3xl font-bold text-orange-600">- Amazing</h2>
         </div>
         <p className="flex col text-gray-700 text-base leading-relaxed">
-          Test Test Aja Ray Ganteng
+          Halo, teman-teman semua! Aku Ray Ilahude, pegiat pendidikan digital yang kerjaannya mengobservasi hampir 1000 video kelas antara pengajar dan pelajar.
+          Aku banyak menggabungkan pengalaman kerjaku di lingkungan internasional dan juga dunia psikologi yang pengen membantu kalian naik level juga.
         </p>
         <div className="flex gap-4">
           <button className="bg-green-500 text-white font-semibold w-32 h-10 rounded-full hover:bg-green-600 transition">Start Now</button>
