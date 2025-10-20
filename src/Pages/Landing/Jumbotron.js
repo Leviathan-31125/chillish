@@ -2,7 +2,7 @@ import React from 'react'
 
 const Jumbotron = () => {
   return (
-    <div className="flex px-36 py-10 gap-10 items-center bg-[#F8F8F8] rounded-xl">
+    <div className="flex h-full max-h-[40-rem] px-36 py-10 gap-10 items-center bg-[#F8F8F8] rounded-xl">
       {/*Left Text Section*/}
       <div className="flex flex-col gap-5 w-full">
         <div>
@@ -22,14 +22,14 @@ const Jumbotron = () => {
       </div>
 
       {/*Right Image Section*/}
-      <div className="w-full flex justify-center">
-        <div className="bg-orange-300 rounded-3xl p-2">
-          <img
-            src="/img/YoungPeopleGroup.png"
-            alt="Students learning"
-            className="rounded-xl w-full max-w-md"
-          />
-        </div>
+      <div className="w-full h-[25rem] relative">
+        <div className='absolute -top-5 -left-10 w-[10rem] h-[5rem] bg-orange-400 rounded-lg'></div>
+        <div className='absolute -bottom-5 -right-10 w-[10rem] h-[5rem] bg-orange-400 rounded-lg'></div>
+        <img
+          src="/img/YoungPeopleGroup.png"
+          alt="Students learning"
+          className="absolute rounded-xl w-full"
+        />
       </div>
     </div>
   )
