@@ -22,13 +22,13 @@ const Jumbotron = () => {
       </div>
 
       {/*Right Image Section*/}
-      <div className="w-full h-[25rem] relative">
-        <div className='absolute -top-5 -left-10 w-[10rem] h-[5rem] bg-orange-400 rounded-lg'></div>
-        <div className='absolute -bottom-5 -right-10 w-[10rem] h-[5rem] bg-orange-400 rounded-lg'></div>
+      <div className="w-full relative">
+        <div className='absolute -top-5 -left-10 w-[10rem] h-[5rem] bg-orange-400 rounded-3xl'></div>
+        <div className='absolute -bottom-5 -right-10 w-[10rem] h-[5rem] bg-orange-400 rounded-3xl'></div>
         <img
           src="/img/YoungPeopleGroup.png"
           alt="Students learning"
-          className="absolute rounded-xl w-full"
+          className="relative z-10 rounded-xl w-full"
         />
       </div>
     </div>
