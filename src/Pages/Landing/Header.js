@@ -2,18 +2,26 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header style={{ padding: '20px', backgroundColor: '#333', color: '#fff', textAlign: 'center' }}>
-      <h1 style={{ marginBottom: '10px' }}>Welcome to My Site</h1>
+    <header className="bg-[#f8f8f8] px-36 py-3 flex items-center justify-between">
+      <h2 className="font-bold text-xl">
+        <span className="text-orange-600">Ray</span>
+        <span className="text-gray-600">Skill</span>
+      </h2>
+
       <nav>
-        <ul style={{ listStyleType: 'none', padding: 0, display: 'flex', justifyContent: 'center', gap: '30px' }}>
-          <li><a href="#home" style={{ color: '#FC6A34', textDecoration: 'none', fontSize: '16px', fontWeight: 'bold' }}>Home</a></li>
-          <li><a href="#classes" style={{ color: '#747474', textDecoration: 'none', fontSize: '16px', fontWeight: 'bold' }}>Classes</a></li>
-          <li><a href="#articles" style={{ color: '#747474', textDecoration: 'none', fontSize: '16px', fontWeight: 'bold' }}>Articles</a></li>
-          <li><a href="#about" style={{ color: '#747474', textDecoration: 'none', fontSize: '16px', fontWeight: 'bold' }}>About Me</a></li>
+        <ul className="flex gap-8 items-center text-lg font-medium text-gray-500">
+          <li><a href="Home" className="text-orange-600">Home</a></li>
+          <li><a href="freegift" className="hover:text-orange-600">freegift</a></li>
+          <li><a href="product" className="hover:text-orange-600">Product</a></li>
+          <li><a href="blog" className="hover:text-orange-600">Blog</a></li>
         </ul>
       </nav>
+
+      <button className="bg-black px-1 py-1 text-white font-semibold rounded-full">
+        Login
+      </button>
     </header>
-  )
-}
+  );
+};
 
 export default Header
