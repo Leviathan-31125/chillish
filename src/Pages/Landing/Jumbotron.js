@@ -2,7 +2,7 @@ import React from 'react'
 
 const Jumbotron = () => {
   return (
-    <div className="flex h-full max-h-[40-rem] px-36 py-10 gap-10 items-center bg-[#F8F8F8] rounded-xl">
+    <div className="flex h-full max-h-[40-rem] px-36 py-10 gap-20 items-center bg-[#F8F8F8] rounded-xl">
       {/*Left Text Section*/}
       <div className="flex flex-col gap-5 w-full">
         <div>
