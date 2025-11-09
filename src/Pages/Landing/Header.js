@@ -17,7 +17,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      <button className="bg-black px-1 py-1 text-white font-semibold rounded-full">
+      <button className="bg-black px-5 py-1 text-white font-semibold rounded-full">
         Login
       </button>
     </header>

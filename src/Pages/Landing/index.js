@@ -8,7 +8,7 @@ import Header from './Header'
 
 const LandingPage = () => {
   return (
-    <div>
+    <div classname='flex flex-col gap-24'>
       <Header/>
       <Jumbotron/>
       <Benefit />
