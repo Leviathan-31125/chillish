@@ -3,7 +3,7 @@ import ProductCard from './ProductCard'
 
 const Product = () => {
   return (
-    <div id='articles' className='px-20 py-5 space-y-4'>
+    <div id='product' className='px-20 py-5 space-y-4'>
       <div className='flex justify-between items-center'>
         <div className='relative w-max'>
           <h1 className='text-4xl'>Intip Dulu</h1>

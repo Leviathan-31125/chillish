@@ -2,11 +2,11 @@ import React from 'react'
 
 const Jumbotron = () => {
   return (
-    <div className="flex h-full max-h-[40-rem] px-36 py-10 gap-20 items-center bg-[#F8F8F8] rounded-xl">
+    <div id='#home' className="flex h-full max-h-[40-rem] px-36 py-10 gap-20 items-center bg-[#F8F8F8] rounded-xl">
       {/*Left Text Section*/}
       <div className="flex flex-col gap-5 w-full">
         <div>
-          <h1 className="text-4xl font-bold text-gray-900">Smart Learning</h1>
+        <h1 className="text-4xl font-bold text-gray-900">Smart Learning</h1>
           <h1 className="text-4xl font-bold text-gray-900">Deeper & More</h1>
           <h2 className="text-3xl font-bold text-orange-600">- Amazing</h2>
         </div>
