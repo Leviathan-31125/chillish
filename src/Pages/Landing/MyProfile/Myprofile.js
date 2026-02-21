@@ -26,25 +26,25 @@ const Myprofile = () => {
           <div className='flex flex-col justify-around gap-10'>
             <div className='relative'>
               <div className='bg-[#1CB190]/60 max-w-[17rem] max-h-[12rem] w-[17rem] h-[12rem] rounded-3xl'></div>
-              <img src='/img/ray.png' alt='Ray Ilahude' className='absolute top-8 left-14 max-w-[20rem] w-[20rem] drop-shadow-lg'/>
+              <img src='/img/ray.png' alt='Ray Ilahude' className='absolute top-8 left-14 max-w-[20rem] w-[20rem] drop-shadow-lg' />
             </div>
             <div className='relative'>
               <div className='bg-[#010200]/60 max-w-[17rem] max-h-[12rem] w-[17rem] h-[12rem] rounded-3xl ms-9'></div>
-              <img src='/img/ray-2.png' alt='Ray Ilahude' className='absolute -top-16 left-0 max-w-[20rem] w-[17rem] drop-shadow-lg'/>
+              <img src='/img/ray-2.png' alt='Ray Ilahude' className='absolute -top-16 left-0 max-w-[20rem] w-[17rem] drop-shadow-lg' />
             </div>
           </div>
         </div>
         {/* Button Container  */}
         <div className='flex gap-4 justify-center'>
-          <button className='bg-[#FC6A34] w-max px-8 py-2 rounded-full font-medium text-white hover:scale-105 transform duration-150 focus:scale-100 focus:ring focus:ring-offset-2 focus:ring-[rgb(249,187,165)]'>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className='bg-[#FC6A34] w-max px-8 py-2 rounded-full font-medium text-white hover:scale-105 transform duration-150 focus:scale-100 focus:ring focus:ring-offset-2 focus:ring-[rgb(249,187,165)]'>
             Watch My Video
-          </button>
-          <button className='bg-[#FC6A34] w-max px-8 py-2 rounded-full font-medium text-white hover:scale-105 transform duration-150 focus:scale-100 focus:ring focus:ring-offset-2 focus:ring-[rgb(249,187,165)]'>
+          </a>
+          <a href="https://medium.com" target="_blank" rel="noopener noreferrer" className='bg-[#FC6A34] w-max px-8 py-2 rounded-full font-medium text-white hover:scale-105 transform duration-150 focus:scale-100 focus:ring focus:ring-offset-2 focus:ring-[rgb(249,187,165)]'>
             Read My Articles
-          </button>
-          <button className='bg-[#FC6A34] w-max px-8 py-2 rounded-full font-medium text-white hover:scale-105 transform duration-150 focus:scale-100 focus:ring focus:ring-offset-2 focus:ring-[rgb(249,187,165)]'>
+          </a>
+          <a href="https://amazon.com" target="_blank" rel="noopener noreferrer" className='bg-[#FC6A34] w-max px-8 py-2 rounded-full font-medium text-white hover:scale-105 transform duration-150 focus:scale-100 focus:ring focus:ring-offset-2 focus:ring-[rgb(249,187,165)]'>
             Read My Book
-          </button>
+          </a>
         </div>
       </div>
     </div>

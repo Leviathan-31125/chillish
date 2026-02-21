@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Feel Good Productivity",
+    "description": "Panduan saya tentang cara melakukan lebih banyak hal yang berarti bagi Anda tanpa mengalami kelelahan.",
+    "link": "https://amazon.com",
+    "type": "Buku"
+  },
+  {
+    "id": 2,
+    "title": "Life OS Template",
+    "description": "Sistem Notion lengkap yang saya gunakan untuk mengelola hidup dan bisnis saya.",
+    "link": "https://gumroad.com",
+    "type": "Produk Digital"
+  }
+]

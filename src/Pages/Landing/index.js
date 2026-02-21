@@ -1,20 +1,18 @@
 import React from 'react'
-import Footer from './Footer'
-import Product from './ProductSection'
-import Myprofile from './MyProfile/Myprofile'
-import Jumbotron from './Jumbotron'
-import Benefit from './Benefit/Benefit'
-import Header from './Header'
+import Product from './ProductSection/index.js'
+import MissionSection from './MissionSection.js'
+import Benefit from './Benefit/Benefit.js'
+import AboutSection from './About/AboutSection.js'
+import Myprofile from './MyProfile/MyProfile.js'
 
 const LandingPage = () => {
   return (
     <div>
-      <Header/>
-      <Jumbotron/>
-      <Benefit />
+      <AboutSection />
+      <MissionSection />
       <Myprofile />
+      <Benefit />
       <Product />
-      <Footer />
     </div>
   )
 }
